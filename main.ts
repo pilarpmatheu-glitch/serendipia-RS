@@ -1,14 +1,3 @@
-controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (estadoJuego == "SELECCION") {
-        opcionSeleccionada = 2
-    }
-})
-// 4. NAVEGACIÓN CON FLECHAS
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (estadoJuego == "SELECCION") {
-        opcionSeleccionada = 1
-    }
-})
 // 5. CONFIRMAR ELECCIÓN (BOTÓN A)
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (estadoJuego == "SELECCION") {
@@ -37,7 +26,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
                 . . . . . f d 2 2 d f . . . . . 
                 . . . . . f f b b f f . . . . . 
                 `, SpriteKind.Food)
-            game.splash("¡Elegiste al Doctora!")
+            game.splash("¡Elegiste a la Doctora!")
         } else {
             jugador = sprites.create(img`
                 . . . . . . . . . . . . . . . . 
@@ -57,12 +46,23 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
                 . . . . . f f f f f f . . . . . 
                 . . . . . f f . . f f . . . . . 
                 `, SpriteKind.Player)
-            game.splash("¡Elegiste a alex!")
+            game.splash("¡Elegiste a Alex!")
         }
         // Configurar movimiento del jugador
         jugador.setPosition(80, 60)
         controller.moveSprite(jugador, 100, 100)
         jugador.setStayInScreen(true)
+    }
+})
+// 4. NAVEGACIÓN CON FLECHAS
+controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (estadoJuego == "SELECCION") {
+        opcionSeleccionada = 1
+    }
+})
+controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (estadoJuego == "SELECCION") {
+        opcionSeleccionada = 2
     }
 })
 let jugador: Sprite = null
