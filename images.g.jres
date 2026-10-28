@@ -19,6 +19,16 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "miImagen2"
     },
+    "image5": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "miImagen3"
+    },
+    "image6": {
+        "data": "hwQQABAAAADu7u7u7u7u7s7MzMPMzMzszszM7O7uzOzOzMzs7sXM7M7MzOzu7M7s7u7u7O7s7OxezOzMzOzs7M7P7Ozu7O/szs/s7O7s7OzOz8zs7uzs7M7P7Ozu7Ozszszs7O7MzOzOzOzM7O7M7M7M7OzMzMvsXszM7MzMzOzu7u7u7u7u7g==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "miImagen4"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",

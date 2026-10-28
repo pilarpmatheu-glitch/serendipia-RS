@@ -79,6 +79,44 @@ e c c c c e e e e e e c c c c e
 e c c c c c c c c c c c c c c e 
 e e e e e e e e e e e e e e e e 
 `;
+            case "image5":
+            case "miImagen3":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image6":
+            case "miImagen4":return img`
+e e e e e e e e e e e e e e e e 
+e c c c c e 5 c c c c c c c 5 e 
+e c c c c e c f f f f c c c c e 
+e c c c c e c c c c c c c c c e 
+e c c c c e c c c c c c c c c e 
+e c c c c e e e e c e e e e c e 
+e 3 c c c c c c c c c c c c c e 
+e c e e e e c e e e e e c e e e 
+e c e e e e c e e e e e c c c e 
+e c e e e e c e e e e e e c c e 
+e c e 5 c c c c c c c c e c c e 
+e c e c e e e e e e e c e c c e 
+e c c c e c c f c c c c c b c e 
+e c c c c e e e e e e c c c c e 
+e c c c c c c c c c c c c c c e 
+e e e e e e e e e e e e e e e e 
+`;
         }
         return null;
     })
